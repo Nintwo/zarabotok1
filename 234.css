@@ -1,0 +1,262 @@
+*{text-decoration : none;}
+body,
+html {
+margin: 0;
+padding: 0;
+background-color: #fff;
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+.glavnaya{
+ background-image:url(glav.jpg);
+  width: 1600px;
+  height: 800px;
+}
+
+.blockvblock{
+  margin: 160px;
+  height: 20px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.shapka{
+  padding:20px;
+  
+font-size: 50px;
+color: black;
+}
+.zarab{
+  padding-left: 600px;
+  padding-bottom: 60px;
+
+  
+}
+.container {
+    width: 100%;
+    max-width: 1024px; 
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+  nav {
+    float: right;
+    
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+  nav li {
+    display: inline-block;
+}
+.onas{
+  width: 680px;
+  height: 200px;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.marquee{
+  margin-top: 160px;
+  
+}
+   
+.byr{ 
+    margin: auto;
+    text-align: center;
+    width: 370px;  
+    height: 40px;
+    
+}
+.Zagolovok{
+    margin:auto;
+    text-align: center;
+}
+.table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    }
+    td, th {
+        width: 6%;
+      }
+    th, td:first-child {
+    background: #AFCDE7;
+    color: rgb(26, 25, 25);
+    padding: 10px 20px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: rgb(32, 32, 32);
+    }
+    td {
+    background: #D8E6F3;
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+    }
+.test{
+    margin: auto;
+    text-align: center;
+    height: 20px;
+    width: 30px;
+    background: violet;
+}
+.link{ 
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 400px; height:65px; /* Размеры */
+    background: #fc0; /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px;
+    
+   }
+.tyt{
+    top:50%;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    text-decoration : none;
+    
+}
+.advantages {
+    min-height: 20px;
+    }
+    
+    .advantages__cards_first {
+      min-height: 0;
+      width: 60%;
+      margin: 10px auto 0px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      z-index: 10;
+    }
+    
+    .advantages__card_first {
+      min-height: 0;
+      width: 25%;
+      padding: 10px;
+      margin: 0;
+      display: inline-block;
+      vertical-align: top;
+    }
+    
+    .advantages__cards_last {
+      height: 200px;
+      width: 60%;
+      margin: 0;
+      margin-right: auto;
+      margin-left: auto;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+    }
+       
+    .advantages__card_title {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #333;
+    }
+    
+    .advantages__card_text {
+      padding-top: 15px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #333;
+    }
+    
+    .advantages__card_icon {
+      color: #526bf5;
+      font-size: 50px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .podval{
+      background: #000;
+      height: 70px;
+      margin: auto;
+    
+      text-align: center;
+      display: flex;
+      background: #ffc; /* Цвет фона */
+    
+      
+    }
+
+    a:visited, a:focus, a:hover {
+      color: rgb(5, 5, 5);
+    }
+    ul {
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+    }
+  a{
+    font-size: 20px;
+    margin-right: 5px;
+  }
+    .advantages__card_text {
+      transition: all .3s;
+    }
+    
+    .advantages__card_title {
+      transition: all .3s;
+    }
+    
+    .advantages__card_icon {
+      transition: all .3s;
+    }
+    
+    .advantages__card_first:hover .advantages__card_text {
+      transform: translateY(-7px)
+    }
+    
+    .advantages__card_first:hover .advantages__card_title {
+      transform: translateY(-7px)
+    }
+    
+    .advantages__card_last:hover .advantages__card_text {
+      transform: translateY(-7px)
+    }
+    
+    .advantages__card_last:hover .advantages__card_title {
+      transform: translateY(-7px)
+    }
+    
+    .advantages__card_first:hover .advantages__card_icon {
+      transform: translateY(-7px) rotate(-0.05turn)
+    }
+    
+    .advantages__card_last:hover .advantages__card_icon {
+      transform: translateY(-7px) rotate(-0.05turn)
+    }
+    
