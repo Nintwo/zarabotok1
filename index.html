@@ -1,79 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>  
-    <link rel="stylesheet" href="/434.css" type="text/css" />
+<div lang="en">
+<head>
+  <link rel="stylesheet" href="font-awesome\css\font-awesome.min.css">
+  <link rel="stylesheet" href="libs/font/all.min.css">
+    <link rel="stylesheet" href="/234.css" type="text/css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=л, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body  background="fon5.jpg">
-    <form>
-        <div class="zagolovok"> <h1 <Align='center'> <b> Заявление на выполнение дополнительных работ  </b></h1></div>
-        <table border> 
-        <colgroup>
-            <col span="1" style="background:rgb(245, 219, 245)">
-            <col style="background-color:LightCyan">
-          </colgroup>
+<body id="1"  background="fon5.jpg">
+  <div class="glavnaya" >
+  <div class="shapka">
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#1">Главная</a></li> 
+          <li><a href="#2">О нас</a></li>
+          <li><a href="#3">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="png"><img src="р.png"width="80" height="70" alt="LOGO"></div>
+    <div class="glav"><div class="blockvblock"><p>Одна из лучших команий по предоставлению дополнительного заработка!</p></div></div>
+<img class="zarab" src="zarab.png"></div>
+  </div>
+    <div class="onas">
+      <p id="2"  class = "onas_zagol"><b>Краткая информация</b></p>
+      <p class = "onas_text">Привет дорогой друг, перед твоим вниманием одна из немногих компании которая предоставляет 
+      возможность легко найти подработку в сфере It, на данный момент наша компания может предоставить вам такие вакансии как:Дизайнер,Разработчик, Тестировщик и Маркетолог
+      Одно из главных отличий нас от других компаний, это то что для получения желаемой вакаснии вам необходимо всего лишь заполнить форму, и мы  в кротчайшие сроки найдем вам подработку! </p>
+
+    </div>
+    <marquee class="marquee" style="color:#1e81dd; font-size: 40px;">Мы предлагаем!</marquee>
+    <section class="advantages">
+      
+     <div class="advantages__cards_first mobile__cards_first" >
+       <card class="advantages__card_first">
+         <p class="advantages__card_icon"><i class="fas fa-pencil-alt"aria-hidden="true"></i></i></p>
+         <p class="advantages__card_title">Дизайнер</p>
+         <p class="advantages__card_text"> Дизайнер – это специалист по созданию макетов окружающей действительности. Она может быть реальной или виртуальной, может воплощаться в жизнь или оставаться концепцией.</p>
+       </card>
+       <card class="advantages__card_first mobile__cards_first">
+         <p class="advantages__card_icon"><i class="fas fa-code"aria-hidden="true"></i> </p>
+         <p class="advantages__card_title">Разработчкик </p>
+         <p class="advantages__card_text">Разработчик – широкий термин для группы специалистов, работа которых направлена на создание мобильных и компьютерных приложений, игр, баз данных и прочего программного обеспечения самых различных устройств </p>
+       </card>
+       <card class="advantages__card_first mobile__cards_first">
+         <p class="advantages__card_icon"> <i class="fas fa-check"aria-hidden="true"></i></p>
+         <p class="advantages__card_title">Тестировщик</p>
+         <p class="advantages__card_text">Тестировщик — это человек, который проверяет работу приложений и ищет в них всевозможные ошибки и уязвимости. Он руководствуется технической документацией, а иногда и просто здравым смыслом </p>
+       </card>
+       <card class="advantages__card_first mobile__cards_last">
+         <p class="advantages__card_icon"> <i class="fas fa-funnel-dollar"aria-hidden="true"></i> </p>
+ 
+         <p class="advantages__card_title">Маркетолог</p>
+         <p class="advantages__card_text"> Маркетолог - это специалист, который занимается продвижением товаров и услуг компании. Его цель - построить систему продаж, которая будет приносить компании наибольшую прибыль. </p>
+       </card>
+     </div>
+     
+   </section>
+
+    <div class="byr"><h1 class="Zagolovok">Уже работают!</h1></div>
+    <div class="table"><table>
         <tr>
-            <td>Регистрационное имя </td>
-            <td><input type='text' name='name' size=35><br></td>
-        </tr>
-        <tr>
-            <td>Специальность</td>
-            <td></div><select>
-          <option>Дизайнер</option>
-          <option>Разработчик</option>
-          <option>Тестировщик</option>
-          <option>Маркетолог</option>
-        </select></p></td></div>
-          </tr>
-        </tr>
-        <tr>
-            <td>Пол</td>
-            <td><label><input type="radio" name="sex" value="female">Мужской</label>
-        <label><input type="radio" name="sex" value="other">Женский</label></td>
-        </tr>
-        <tr>
-            <td>Ваши навыки </td>
-            <td>
-            <input type='checkbox' name='group' Value='domtel'>Знание HTML и CSS</font><br>
-        <input type='checkbox' name='group' Value='rabtel'>Знание ASP </font><br>
-        <input type='checkbox' name='e-mail' Value='elpost'>Знание JAVA</font><br>
-        <input type='checkbox' name='e-mail' Value='elpost'>Знание Adobe Photoshop</font><br>
-        <input type='checkbox' name='e-mail' Value='elpost'>Знание JavaScript</font><br>
-        <input type='checkbox' name='e-mail' Value='elpost'>Знание Flash</font><br>
-        
-            
-        </td>
-        </tr>
-        <tr>
-            <td>Желаемый оклад </td>
-            <td><input type='text'  size=6 ><br></td>
-        </tr>
-        <tr>
-            <td>Дата начала работы</td>
-            <td><input type='text'  size=10 ><br></td>
-        </tr>
-        <tr>
-            <td>Дата окончания работы</td>
-            <td><input type='text'  size=10 ><br></td>
-        </tr>
-        <tr>
-            <td>Дополнительные сведения о себе</td>
-            <td>
-        <textarea name='o sebe' rows=4 cols=30>
-        </textarea>
-        </tr>
-        
-        </table>
-        <hr>
-        <input class="knopki" type='submit' Value='Отправить'>
-        <input class="knopki" type='reset' Value='Сброс'>
-        <hr>
-        </BODY> 
-        </form>
-        
-        <img src="back.png"width="80" height="80" href="#" onclick="history.back();return false;">
-    </body>
+            <tr>
+                <td>Сотрудники</td>
+                <td>Вид работы</td>
+                <td>Оплата за день</td>
+                <td>Оклад</td>
+                <td>Начало работы</td>
+                <td>Окончание работы</td>
+              </tr>
+              <tr>
+                <td>Петров Петр Петрович</td>
+                <td>Дизайнер</td>
+                <td>1000 р.</td>
+                <td>30 т.р.</td>
+                <td>20.05.2021</td>
+                <td>19.06.2021</td>
+              </tr>
+              <tr>
+                <td>Иванов Иван Иванович</td>
+                <td>Разработчик</td>
+                <td>1500 р.</td>
+                <td>45 т.р. </td>
+                <td>21.05.21</td>
+                <td>22.06.21</td>
+              </tr>
+              <tr>
+                <td>Егоров Егор Егорович</td>
+                <td>Тестировщик</td>
+                <td>1200</td>
+                <td>35 т.р.</td>
+                <td>25.05.21</td>
+                <td>26.06.21</td>
+              </tr>
+              <tr>
+                <td>Птичкин Сергей Андреевич</td>
+                <td>Маркетолог</td>
+                <td>1300</td>
+                <td>39 т.р.</td>
+                <td>25.05.21</td>
+                <td>25.06.21</td>
+              </tr>
+              <tr>
+                <td>Сверлов Андрей Сергеевич</td>
+                <td>Разработка ПО</td>
+                <td>1500</td>
+                <td>45 т.р.</td>
+                <td>26.05.21</td>
+                <td>26.06.21</td>
+              </tr>
+    </table></div>
+     
+    <div class="link"><h1 id="3" class="tyt"><a class="tyt" href="/fream.html"><p>Получить дополнительую работу!<p></a></h1></div>
+    <footer class="podval">
+      <ul>
+                <li><a href="#1">Главная</a></li> 
+                <li><a href="#2">О нас</a></li>
+                <li><a href="#3">Контакты</a></li>
+      </ul>
+    </footer>
+  </body>
+
 </html>
