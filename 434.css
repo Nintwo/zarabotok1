@@ -9,3 +9,6 @@ width: 600px;
 .knopki{
    background: rgb(218, 253, 218);;
 }
+.back{
+   transform: rotate(270deg); 
+}
