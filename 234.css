@@ -12,8 +12,10 @@ box-sizing: border-box;
 }
 .glavnaya{
  background-image:url(glav.jpg);
-  width: 1600px;
-  height: 800px;
+ -moz-background-size:100%;
+ -webkit-background-size:100%;
+ -o-background-size:100%;
+ background-size:100%;;
 }
 
 .blockvblock{
@@ -29,9 +31,9 @@ font-size: 50px;
 color: black;
 }
 .zarab{
-  padding-left: 600px;
-  padding-bottom: 60px;
-
+  padding-left: 560px;
+  
+  margin: auto;
   
 }
 .container {
